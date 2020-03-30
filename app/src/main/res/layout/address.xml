@@ -6,11 +6,17 @@
     android:id="@+id/addr_content">
 
 
-    <TextView
-        android:id="@+id/addr_content_text"
+<!--    <TextView-->
+<!--        android:id="@+id/addr_content_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/address_info"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="24sp"/>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/address_info"
-        android:gravity="center"
-        android:textSize="24sp"/>
+        android:layout_height="match_parent" />
 </LinearLayout>

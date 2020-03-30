@@ -11,6 +11,8 @@
 
     <string name="address">通讯录</string>
     <string name="address_info">这里是通讯录界面</string>
+    <string name="address_img">这是名侦探柯南通讯录图片</string>
+    <string name="address_img_info">这是名侦探柯南通讯录</string>
 
     <string name="settings">设置</string>
     <string name="settings_info">这里是设置界面</string>

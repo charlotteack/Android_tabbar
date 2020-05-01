@@ -5,11 +5,18 @@
     android:layout_height="match_parent"
     android:id="@+id/frd_content">
 
-    <TextView
-        android:id="@+id/frd_content_text"
+<!--    <TextView-->
+<!--        android:id="@+id/frd_content_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/friend_info"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="24sp"/>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_friend"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/friend_info"
-        android:gravity="center"
-        android:textSize="24sp"/>
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/myfab"/>
 </LinearLayout>

@@ -8,6 +8,10 @@
 
     <string name="friend">朋友</string>
     <string name="friend_info">这里是朋友界面</string>
+    <string name="friend_name">姓名:</string>
+    <string name="friend_sex">性别:</string>
+    <string name="friend_age">年龄:</string>
+    <string name="add">添加</string>
 
     <string name="address">通讯录</string>
     <string name="address_info">这里是通讯录界面</string>

@@ -1,6 +1,7 @@
 package com.example.basic_weixin;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.app.Fragment;
@@ -8,9 +9,11 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -145,6 +148,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         addr_layout.setOnClickListener(this);
         set_layout.setOnClickListener(this);
      }
+
+     //跳转到蓝牙界面
+    public void initGoToBluetoothBtn(View view){
+        Intent intent = new Intent(MainActivity.this,BluetoothChat.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

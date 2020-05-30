@@ -3,13 +3,15 @@
     android:id="@+id/msg_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/msg_content_text"
-        android:layout_width="match_parent"
+
+    <Button
+        android:id="@+id/msg_to_bluetooth"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/message_info"
-        android:gravity="center"
-        android:textSize="24sp"/>
+        android:text="点击进行蓝牙聊天"
+        android:textSize="16sp"
+        android:onClick="initGoToBluetoothBtn" />
 </LinearLayout>
